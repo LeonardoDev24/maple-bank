@@ -1,4 +1,6 @@
-import "./globals.css";
+import "bootstrap/dist/css/bootstrap.min.css"
+import BootstrapClient from "@/components/BootstrapClient";
+import "./globals.css"
 
 export const metadata = {
   title: "Home | Maple Bank",
@@ -9,6 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning>
+        <BootstrapClient/>
         {children}
       </body>
     </html>

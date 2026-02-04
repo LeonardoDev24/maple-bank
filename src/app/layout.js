@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import BootstrapClient from "@/components/BootstrapClient";
+import Header from "@/components/Header";
 import "./globals.css"
 
 export const metadata = {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning>
         <BootstrapClient/>
+        <Header/>
         {children}
       </body>
     </html>

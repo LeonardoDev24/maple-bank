@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 function Footer() {
     const actualYear = new Date().getFullYear()
     return (
@@ -12,26 +14,26 @@ function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a href="https://instagram.com">
+                            <a href="https://instagram.com" target="_blank">
                                 <img src="social/instagram.png" alt="Instagram logo" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com">
+                            <a href="https://twitter.com" target="_blank">
                                 <img src="social/twitter.png" alt="Twitter logo" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://youtube.com">
+                            <a href="https://youtube.com" target="_blank">
                                 <img src="social/youtube.png" alt="Youtube logo" />
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div id="about-us">
-                    <a href="#">Sucursales</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Costos y comisiones</a>
+                    <Link href="/sucursales">Sucursales</Link>
+                    <Link href="/contacto">Contacto</Link>
+                    <Link href="#">Costos y comisiones</Link>
                 </div>
             </div>
             <p>© {actualYear} Maple Bank S. A. de C. V. Institución de Banca Múltiple</p>

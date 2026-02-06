@@ -10,32 +10,11 @@ body {
   color: var(--text);
 }
 
-header nav.navbar {
-  box-shadow: 1px 1px 8px #28282B;
-  background-color: var(--nav);
-  color: var(--text);
-  padding: 0.5rem 1rem;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  width: 100vw;
+a {
+  text-decoration: none;
 }
 
-header nav img {
-  width: 5rem;
+main {
+  min-height: calc(100vh - 5.72rem - 10rem);
 }
 
-a.nav-link {
-  color: var(--text)
-}
-
-a.nav-link:hover {
-  color: #0047AB;
-}
-
-.navbar-nav {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-}

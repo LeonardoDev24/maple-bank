@@ -1,7 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import BootstrapClient from "@/components/BootstrapClient";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css"
+import "./sandwich.css"
 
 export const metadata = {
   title: "Home | Maple Bank",
@@ -15,6 +17,8 @@ export default function RootLayout({ children }) {
         <BootstrapClient/>
         <Header/>
         {children}
+        <Footer/>
+        <script src="https://kit.fontawesome.com/a330d0ba83.js" crossOrigin="anonymous"></script>
       </body>
     </html>
   );

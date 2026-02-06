@@ -31,7 +31,7 @@ a.nav-link:hover {
 }
 
 footer {
-  background-color: var(--text);
+  background-image: linear-gradient(var(--text),#000044);
   color: var(--background);
   text-align: center;
   height: 12rem;

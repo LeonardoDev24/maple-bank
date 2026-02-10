@@ -10,22 +10,22 @@ function Footer() {
                     <ul className="social-links">
                         <li>
                             <a href="https://facebook.com" target="_blank">
-                                <img src="social/facebook.png" alt="Facebook logo" />
+                                <img src="/social/facebook.png" alt="Facebook logo" />
                             </a>
                         </li>
                         <li>
                             <a href="https://instagram.com" target="_blank">
-                                <img src="social/instagram.png" alt="Instagram logo" />
+                                <img src="/social/instagram.png" alt="Instagram logo" />
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com" target="_blank">
-                                <img src="social/twitter.png" alt="Twitter logo" />
+                                <img src="/social/twitter.png" alt="Twitter logo" />
                             </a>
                         </li>
                         <li>
                             <a href="https://youtube.com" target="_blank">
-                                <img src="social/youtube.png" alt="Youtube logo" />
+                                <img src="/social/youtube.png" alt="Youtube logo" />
                             </a>
                         </li>
                     </ul>

@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Sucursales"
+}
+
 export default function Sucursales () {
     return (
         <main>

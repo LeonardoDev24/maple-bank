@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Cuentas de débito"
+}
+
 export default function DebitAccounts() {
     return (
         <main>

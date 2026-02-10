@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Créditos"
+}
+
 export default function Creditos() {
     return (
         <main>

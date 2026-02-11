@@ -7,3 +7,11 @@ export default async function accountPage(props) {
         </main>
     )
 }
+
+export async function generateMetadata({params}) {
+    const {accountName} = await params
+    return {
+        title: `${accountName} | Maple Bank`,
+        description: `Información sobre la tarjeta ${accountName}`
+    }
+}

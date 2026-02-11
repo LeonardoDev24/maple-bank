@@ -6,3 +6,11 @@ export default async function creditPage(props) {
         </main>
     )
 }
+
+export async function generateMetadata({params}) {
+    const {creditName} = await params
+    return {
+        title: `${creditName} | Maple Bank`,
+        description: `Información sobre la tarjeta ${creditName}`
+    }
+}

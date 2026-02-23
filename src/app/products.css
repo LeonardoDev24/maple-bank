@@ -1,9 +1,13 @@
-section#credit-cards {
+section#credit-cards, 
+section#debit-cards, 
+section#creditos {
     text-align: center;
     margin: 1rem 0 2rem 0;
 }
 
-section#credit-cards ul {
+section#credit-cards ul, 
+section#debit-cards ul, 
+section#creditos ul {
     list-style: none;
     padding: 0;
     display: grid;
@@ -31,6 +35,7 @@ li.card-preview:hover {
 img.card-image {
     width: 15rem;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 a.btn {

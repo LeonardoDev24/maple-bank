@@ -1,0 +1,44 @@
+section#credit-cards {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+section#credit-cards ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+li.card-preview {
+    width: 20rem;
+    background-color: #C7DBFF;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 1rem;
+    transition: transform 200ms;
+    cursor: pointer;
+}
+
+li.card-preview:hover {
+    transform: scale(1.04);
+    box-shadow: 2px 2px 5px #28282B;
+}
+
+img.card-image {
+    width: 15rem;
+    object-fit: cover;
+}
+
+a.btn {
+    color: var(--background);
+    background-color: var(--text);
+}
+
+a.btn:hover{
+    color: var(--background);
+    background-color: #004822;
+}

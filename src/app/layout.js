@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css"
 import "./sandwich.css"
+import "./products.css"
 
 export const metadata = {
   title: "Home | Maple Bank",

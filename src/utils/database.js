@@ -15,4 +15,18 @@ export async function getData(table) {
     return result
 }
 
+export async function searchByName(table, image) {
+    const dbPath = path.join(process.cwd(),"src/data/products.db")
+    
+    const db = await open({
+        filename: dbPath,
+        driver: sqlite3.Database
+    })
+
+    const query = `SELECT * FROM ${table} WHERE image = ?`
+    const card = await db.get(query,image)
+    return card
+}
+
 // getData("creditCards")
+// searchByName("creditCards","ocean")
